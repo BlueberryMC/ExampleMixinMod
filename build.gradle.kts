@@ -48,6 +48,13 @@ tasks {
     withType<JavaCompile> {
         options.encoding = "UTF-8"
     }
+
+    withType<Jar> {
+        manifest.attributes(
+            "TweakClass" to "org.spongepowered.asm.launch.MixinTweaker",
+            "MixinConfigs" to "mixins.examplemod.json",
+        )
+    }
 }
 
 tasks.getByName<Test>("test") {
