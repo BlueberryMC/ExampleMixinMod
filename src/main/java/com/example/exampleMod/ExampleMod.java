@@ -1,4 +1,4 @@
-package net.blueberrymc.example;
+package com.example.exampleMod;
 
 import net.blueberrymc.common.bml.BlueberryMod;
 import net.minecraft.server.MinecraftServer;

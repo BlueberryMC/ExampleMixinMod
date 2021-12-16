@@ -24,10 +24,12 @@ blueberry {
 }
 
 repositories {
-    mavenLocal()
+    // mavenLocal()
     mavenCentral()
-    // maven { url = uri("https://repo.spongepowered.org/repository/maven-public/") }
+    maven { url = uri("https://repo2.acrylicstyle.xyz/") } // deprecated
+    maven { url = uri("https://libraries.minecraft.net/") }
     maven { url = uri("https://repo.blueberrymc.net/repository/maven-public/") }
+    maven { url = uri("https://repo.spongepowered.org/maven/") }
 }
 
 dependencies {

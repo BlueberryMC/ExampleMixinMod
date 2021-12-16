@@ -1,4 +1,4 @@
-package net.blueberrymc.example.mixin;
+package com.example.exampleMod.mixin;
 
 import net.minecraft.Util;
 import net.minecraft.client.player.LocalPlayer;
