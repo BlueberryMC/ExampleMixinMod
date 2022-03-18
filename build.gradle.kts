@@ -19,17 +19,14 @@ java {
 }
 
 blueberry {
-    minecraftVersion.set("1.18.1")
-    apiVersion.set("0.2.1-SNAPSHOT")
+    minecraftVersion.set("1.18.2")
+    apiVersion.set("1.0.0-SNAPSHOT")
 }
 
 repositories {
     // mavenLocal()
     mavenCentral()
-    maven { url = uri("https://repo2.acrylicstyle.xyz/") } // deprecated
-    maven { url = uri("https://libraries.minecraft.net/") }
     maven { url = uri("https://repo.blueberrymc.net/repository/maven-public/") }
-    maven { url = uri("https://repo.spongepowered.org/maven/") }
 }
 
 dependencies {
